@@ -35,12 +35,27 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
-
-
 </head>
 
+<style>
+.img-circle {
+  border-radius: 50%;
+}
+.img-responsive{
+    display:flex;
+    max-width: 100%;
+    height: auto;
+    padding: inherit;
+}
+div {
+    display: block;
+}
+img {
+    vertical-align: middle;
+}
+</style>
 <body>
-    
+
     <!--====== PRELOADER PART START ======-->
 
     <div class="preloader">
@@ -65,13 +80,13 @@
     <!--====== NAVBAR PART START ======-->
 
     <section class="header-area">
-        <div class="navbar-area" style="background: #000000">
+        <div class="navbar-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="#">
-                                <img src="assets/images/logonitp.jpg" alt="Logo" style="max-width: 60px;border-radius: 50%">
+                                <img style="width:70px;" src="assets/images/logonitp.png" alt="Logo">
                             </a>
 
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEight" aria-controls="navbarEight" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,7 +96,7 @@
                             </button>
 
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
-                                <ul class="navbar-nav ml-auto">
+                                <ul class="nav navbar-nav ml-auto">
                                     <li class="nav-item active">
                                         <a class="page-scroll" href="#home">HOME</a>
                                     </li>
@@ -111,7 +126,7 @@
                 </div> <!-- row -->
             </div> <!-- container -->
         </div> <!-- navbar area -->
-        
+
         <div id="home" class="slider-area">
             <div class="bd-example">
                 <div id="carouselOne" class="carousel slide" data-ride="carousel">
@@ -122,29 +137,32 @@
                     </ol>
 
                     <div class="carousel-inner">
-                        <div class="carousel-item bg_cover active" style="background-image: url(assets/images/slider-1.jpeg)">
+                        <div class="carousel-item bg_cover active" style="background-image: url(assets/images/slider-1.jpg)">
                             <div class="carousel-caption">
                                 <div class="container">
                                     <div class="row justify-content-center">
                                         <div class="col-xl-6 col-lg-7 col-sm-10">
-                                            <h2 class="carousel-title">Get all the help one can, to scale up your business to the next level</h2>
-                                           
+                                            <h2 class="carousel-title">Refreshing Design & Easy to Customize</h2>
+                                            <ul class="carousel-btn rounded-buttons">
+                                                <li><a class="main-btn rounded-three" href="#">GET STARTED</a></li>
+                                                <li><a class="main-btn rounded-one" href="#">DOWNLOAD</a></li>
+                                            </ul>
                                         </div>
                                     </div> <!-- row -->
                                 </div> <!-- container -->
                             </div> <!-- carousel caption -->
                         </div> <!-- carousel-item -->
 
-                        <div class="carousel-item bg_cover" style="background-image: url(assets/images/slider-2.jpeg)">
+                        <div class="carousel-item bg_cover" style="background-image: url(assets/images/slider-2.jpg)">
                             <div class="carousel-caption">
                                 <div class="container">
                                     <div class="row justify-content-center">
                                         <div class="col-xl-6 col-lg-7 col-sm-10">
-                                            <h2 class="carousel-title">
-Welcome to Incubation Center, NIT Patna
-Your first step of innovation
-</h2>
-                                           
+                                            <h2 class="carousel-title">Based on Latest Bootstrap & HTML5</h2>
+                                            <ul class="carousel-btn rounded-buttons">
+                                                <li><a class="main-btn rounded-three" href="#">GET STARTED</a></li>
+                                                <li><a class="main-btn rounded-one" href="#">DOWNLOAD</a></li>
+                                            </ul>
                                         </div>
                                     </div> <!-- row -->
                                 </div> <!-- container -->
@@ -156,11 +174,11 @@ Your first step of innovation
                                 <div class="container">
                                     <div class="row justify-content-center">
                                         <div class="col-xl-6 col-lg-7 col-sm-10">
-                                            <h2 class="carousel-title">
-Raise Funds For Your Startup
-Incubitees get funds from the state government
-</h2>
-                                           
+                                            <h2 class="carousel-title">Multi-purpose Landing Page Template</h2>
+                                            <ul class="carousel-btn rounded-buttons">
+                                                <li><a class="main-btn rounded-three" href="#">GET STARTED</a></li>
+                                                <li><a class="main-btn rounded-one" href="#">DOWNLOAD</a></li>
+                                            </ul>
                                         </div>
                                     </div> <!-- row -->
                                 </div> <!-- container -->
@@ -191,7 +209,7 @@ Incubitees get funds from the state government
         </div>
         <div class="sidebar-content">
             <div class="sidebar-logo text-center">
-                <a href="#"><img src="assets/images/logonitp.jpg" alt="Logo" style="max-width:180px"></a>
+                <a href="#"><img src="assets/images/logo-alt.png" alt="Logo"></a>
             </div> <!-- logo -->
             <div class="sidebar-menu">
                 <ul>
@@ -213,21 +231,23 @@ Incubitees get funds from the state government
     <div class="overlay-right"></div>
 
     <!--====== SAIDEBAR PART ENDS ======-->
-    
+
     <!--====== ABOUT PART START ======-->
 
     <section id="about" class="about-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-8">
-                   
+                    <div class="about-image text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-offset="100">
+                        <img src="assets/images/services.png" alt="services">
+                    </div>
                     <div class="section-title text-center mt-30 pb-40">
-                        <h4 class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">About Incubation Center</h4>
+                        <h4 class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">The future of designing starts here</h4>
                         <p class="text wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">An open platform for presentations and content collaboration. Sign up to get early access.</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
-            
+
             <div class="row">
                 <div class="col-lg-6">
                     <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">
@@ -278,7 +298,7 @@ Incubitees get funds from the state government
     </section>
 
     <!--====== ABOUT PART ENDS ======-->
-    
+
     <!--====== portfolio PART START ======-->
 
     <section id="portfolio" class="portfolio-area">
@@ -435,118 +455,6 @@ Incubitees get funds from the state government
         </div> <!-- container -->
     </section>
 
-    <!--====== portfolio PART ENDS ======-->
-    
-    <!--====== PRINICNG STYLE EIGHT START ======-->
-
-    <section id="pricing" class="pricing-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section-title text-center pb-20">
-                        <h3 class="title">Pricing Plan</h3>
-                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row justify-content-center">                
-                <div class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                        <div class="pricing-icon text-center">
-                            <img src="assets/images/wman.svg" alt="">
-                        </div>
-                        <div class="pricing-header text-center">
-                            <h5 class="sub-title">Basic</h5>
-                            <p class="month"><span class="price">$ 199</span>/month</p>
-                        </div>
-                        <div class="pricing-list">
-                            <ul>
-                                <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
-                                <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-three" href="#">GET STARTED</a>
-                        </div>
-                    </div> <!-- pricing style one -->
-                </div>
-                
-                <div class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-                        <div class="pricing-icon text-center">
-                            <img src="assets/images/wman.svg" alt="">
-                        </div>
-                        <div class="pricing-header text-center">
-                            <h5 class="sub-title">Pro</h5>
-                            <p class="month"><span class="price">$ 399</span>/month</p>
-                        </div>
-                        <div class="pricing-list">
-                            <ul>
-                                <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
-                                <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-three" href="#">GET STARTED</a>
-                        </div>
-                    </div> <!-- pricing style one -->
-                </div>
-                
-                <div class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
-                        <div class="pricing-icon text-center">
-                            <img src="assets/images/wman.svg" alt="">
-                        </div>
-                        <div class="pricing-header text-center">
-                            <h5 class="sub-title">Enterprise</h5>
-                            <p class="month"><span class="price">$ 699</span>/month</p>
-                        </div>
-                        <div class="pricing-list">
-                            <ul>
-                                <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
-                                <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-three" href="#">GET STARTED</a>
-                        </div>
-                    </div> <!-- pricing style one -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== PRINICNG STYLE EIGHT ENDS ======-->
-    
-    <!--====== CALL TO ACTION TWO PART START ======-->
-
-    <section id="call-action" class="call-action-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <div class="call-action-content mt-45">
-                        <h3 class="action-title">Get latest updates!</h3>
-                        <p class="text">We never spam your email</p>
-                    </div> <!-- call action content -->
-                </div>
-                <div class="col-lg-7">
-                    <div class="call-action-form mt-50">
-                        <form action="#">
-                            <input type="text" placeholder="Enter your email">
-                            <div class="action-btn rounded-buttons">
-                                <button class="main-btn rounded-three">subscribe</button>
-                            </div>
-                        </form>
-                    </div> <!-- call action form -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== CALL TO ACTION TWO PART ENDS ======-->
-    
-    <!--====== TESTIMONIAL THREE PART START ======-->
-
     <section id="testimonial" class="testimonial-area">
         <div class="container">
             <div class="row justify-content-center">
@@ -557,7 +465,7 @@ Incubitees get funds from the state government
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
-            
+
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row testimonial-active">
@@ -571,7 +479,7 @@ Incubitees get funds from the state government
                                     <h6 class="author-name">Isabela Moreira</h6>
                                     <span class="sub-title">CEO, GrayGrids</span>
                                 </div>
-                            </div> <!-- single testimonial -->
+                            </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="single-testimonial mt-30 mb-30 text-center">
@@ -583,7 +491,7 @@ Incubitees get funds from the state government
                                     <h6 class="author-name">Fiona</h6>
                                     <span class="sub-title">Lead Designer, UIdeck</span>
                                 </div>
-                            </div> <!-- single testimonial -->
+                            </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="single-testimonial mt-30 mb-30 text-center">
@@ -595,7 +503,7 @@ Incubitees get funds from the state government
                                     <h6 class="author-name">Elon Musk</h6>
                                     <span class="sub-title">CEO, SpaceX</span>
                                 </div>
-                            </div> <!-- single testimonial -->
+                            </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="single-testimonial mt-30 mb-30 text-center">
@@ -607,164 +515,138 @@ Incubitees get funds from the state government
                                     <h6 class="author-name">Fajar Siddiq</h6>
                                     <span class="sub-title">CEO, MakerFlix</span>
                                 </div>
-                            </div> <!-- single testimonial -->
+                            </div>
                         </div>
-                    </div> <!-- row -->
+                    </div>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div>
+        </div>
     </section>
-
-    <!--====== TESTIMONIAL THREE PART ENDS ======-->
-    
-    <!--====== CLIENT LOGO PART START ======-->
-
-    <section id="client" class="client-logo-area">
-        <div class="container">
-            <div class="row client-active">
-                <div class="col-lg-3">
-                    <div class="single-client text-center">
-                        <img src="assets/images/client_logo_01.png" alt="Logo">
-                    </div> <!-- single client -->
-                </div>
-                <div class="col-lg-3">
-                    <div class="single-client text-center">
-                        <img src="assets/images/client_logo_02.png" alt="Logo">
-                    </div> <!-- single client -->
-                </div>
-                <div class="col-lg-3">
-                    <div class="single-client text-center">
-                        <img src="assets/images/client_logo_03.png" alt="Logo">
-                    </div> <!-- single client -->
-                </div>
-                <div class="col-lg-3">
-                    <div class="single-client text-center">
-                        <img src="assets/images/client_logo_04.png" alt="Logo">
-                    </div> <!-- single client -->
-                </div>
-                <div class="col-lg-3">
-                    <div class="single-client text-center">
-                        <img src="assets/images/client_logo_05.png" alt="Logo">
-                    </div> <!-- single client -->
-                </div>
-                <div class="col-lg-3">
-                    <div class="single-client text-center">
-                        <img src="assets/images/client_logo_06.png" alt="Logo">
-                    </div> <!-- single client -->
-                </div>
-                <div class="col-lg-3">
-                    <div class="single-client text-center">
-                        <img src="assets/images/client_logo_07.png" alt="Logo">
-                    </div> <!-- single client -->
-                </div>
-                <div class="col-lg-3">
-                    <div class="single-client text-center">
-                        <img src="assets/images/client_logo_08.png" alt="Logo">
-                    </div> <!-- single client -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== CLIENT LOGO PART ENDS ======-->
-    
-    <!--====== CONTACT TWO PART START ======-->
-
-    <section id="contact" class="contact-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section-title text-center pb-20">
-                        <h3 class="title">Get in touch</h3>
-                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="contact-two mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                        <h4 class="contact-title">Lets talk about the project</h4>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam unde repellendus delectus facilis quia consequatur maxime perferendis! Sequi, modi consequatur.</p>
-                        <ul class="contact-info">
-                            <li><i class="lni-money-location"></i> Elizabeth St, Melbourne, Australia</li>
-                            <li><i class="lni-phone-handset"></i> +333 789-321-654</li>
-                            <li><i class="lni-envelope"></i> hello@ayroui.com</li>
-                        </ul>
-                    </div> <!-- contact two -->
-                </div>
-                <div class="col-lg-6">
-                    <div class="contact-form form-style-one mt-35 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-                        <form  id="contact-form" action="assets/contact.php" method="post">
-                            <div class="form-input mt-15">
-                                <label>Name</label>
-                                <div class="input-items default">
-                                    <input type="text" placeholder="Name" name="name">
-                                    <i class="lni-user"></i>
-                                </div>
-                            </div> <!-- form input -->
-                            <div class="form-input mt-15">
-                                <label>Email</label>
-                                <div class="input-items default">
-                                    <input type="email" placeholder="Email" name="email">
-                                    <i class="lni-envelope"></i>
-                                </div>
-                            </div> <!-- form input -->
-                            <div class="form-input mt-15">
-                                <label>Massage</label>
-                                <div class="input-items default">
-                                    <textarea placeholder="Massage" name="massage"></textarea>
-                                    <i class="lni-pencil-alt"></i>
-                                </div>
-                            </div> <!-- form input -->
-                            <p class="form-message"></p>
-                            <div class="form-input rounded-buttons mt-20">
-                                <button type="submit" class="main-btn rounded-three">Submit</button>
-                            </div> <!-- form input -->
-                        </form>
-                    </div> <!-- contact form -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== CONTACT TWO PART ENDS ======-->
-    
-    <!--====== FOOTER FOUR PART START ======-->
+  <section>
+    <div id="team" class="about-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Team</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="row">
+            <div class="col-sm-6 text-center">
+              <img class="img-responsive" src="F:\smart-opl\assets\images\director.png" style="margin:auto;">
+              <h3 style="padding-top: 30px;color: #8085ff;">Prof. PRADEEP KUMAR JAIN</h3>
+              <h4>PATRON</h4>
+              <h4>DIRECTOR, NIT PATNA</h4>
+            </div>
+            <div class="col-sm-6 text-center">
+              <img class="img-responsive" src="F:\smart-opl\assets\images\director.png" style="margin:auto;">
+              <h3 style="padding-top: 30px;color: #8085ff;">Prof. BHARAT GUPTA</h3>
+              <h4>Prof IN-CHARGE</h4>
+              <h4>INCUBATION CENTER</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+<section>
+  <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Student Committee Members</h2>
+          </div>
+        </div>
+      </div>
+<div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-12 col-sm-12 col-md-12 text-center">
+          <img class="img-responsive img-circle" src="F:\smart-opl\assets\images\shivam.jpeg" style="margin: auto;width:200px;">
+          <h4 style="padding-top: 20px;">Shivam Kumar</h4>
+          <h5>Overall Coordinator</h5>
+        </div>
+      </div>
+        <div class="row">
+        <div class="col-xs-12  col-lg-4 col-sm-4 col-md-4  text-center">
+          <img class="img-responsive img-circle" src="F:\smart-opl\assets\images\shivam.jpeg" style="margin: auto;width:200px;">
+          <h4 style="padding-top: 20px;"></h4>
+          <h5>PR Coordinator</h5>
+        </div>
+        <div class="col-xs-12  col-lg-4 col-sm-4 col-md-4  text-center">
+          <img class="img-responsive img-circle" src="F:\smart-opl\assets\images\shivam.jpeg" style="margin: auto;width:200px;">
+          <h4 style="padding-top: 20px;">Rakesh Kumar</h4>
+          <h5>Event Coordinator</h5>
+        </div>
+        <div class="col-xs-12  col-lg-4 col-sm-4 col-md-4  text-center">
+          <img class="img-responsive img-circle" src="F:\smart-opl\assets\images\shivam.jpeg" style="margin: auto;width:200px;">
+          <h4 style="padding-top: 20px;">Harsh Raj</h4>
+          <h5>Web Coordinator</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12  col-lg-4 col-sm-4 col-md-4  text-center">
+          <img class="img-responsive img-circle" src="F:\smart-opl\assets\images\shivam.jpeg" style="margin: auto;width:200px;">
+          <h4 style="padding-top: 20px;">Aamir Ashraf</h4>
+          <h5>PR Co-Coordinator</h5>
+        </div>
+        <div class="col-xs-12  col-lg-4 col-sm-4 col-md-4  text-center">
+          <img class="img-responsive img-circle" src="F:\smart-opl\assets\images\shivam.jpeg" style="margin: auto;width:200px;">
+          <h4 style="padding-top: 20px;">Arnav Vats</h4>
+          <h5>Event Co-Coordinator</h5>
+        </div>
+        <div class="col-xs-12 col-lg-4 col-sm-4 col-md-4   text-center">
+          <img class="img-responsive img-circle" src="F:\smart-opl\assets\images\shivam.jpeg" style="margin: auto;width:200px;">
+          <h4 style="padding-top: 20px;">Kundan</h4>
+          <h5>Web Co-Coordinator</h5>
+        </div>
+      </div>
+    </div>
+</section>
 
     <footer id="footer" class="footer-area">
         <div class="footer-widget">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-sm-6 col-md-6 col-xs-12">
                         <div class="footer-link">
-                            <h6 class="footer-title">Company</h6>
-                            <ul>
-                                <li><a href="#">About</a></li>
+
+                                <!-- <li><a href="#">About</a></li>
                                 <li><a href="#">Contact</a></li>
-                                <li><a href="#">Profile</a></li>
-                            </ul>
+                                <li><a href="#">Profile</a></li> -->
+                              <h2><span style="color:#3ec1d5;">IC</span>NITP</h2>
+                              <p>Thank you for visiting Incubation Center NIT Patna Website.</p>
+
                         </div> <!-- footer link -->
                     </div>
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4 style="color:#3ec1d5;padding:10px 0 10px 0;">Information</h4>
+                <p>
+                  Please contact us for any query.
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Contacts</span></p>
+                  <p style="margin: 0 0 15px;"><span ><b>Shivam Kumar</b> (Overall Coordinator)</span> +91 950 4119 113</p>
+                  <p  style="margin: 0 0 15px;"><span><b>Harsh Raj</b> (Web Coordinator)</span>+91 900 6884 329</p>
+                  <p style="margin: 0 0 15px;"><span ><b>Rakesh Kumar</b> (Event & Design Coordinator)</span> +91 995 3972 508</p>
+                  <p style="margin: 0 0 15px;"><span ><b>Email:</b></span> icnitp@gmail.com</p>
+                  <p style="margin: 0 0 15px;"><span ><b>Working Hours:</b></span> 9am-5pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <!-- <div class="col-lg-3 col-sm-6">
                         <div class="footer-link">
-                            <h6 class="footer-title">Solutions</h6>
-                            <ul>
-                                <li><a href="#">Facilities Services</a></li>
-                                <li><a href="#">Workplace Staffing</a></li>
-                                <li><a href="#">Project Management</a></li>
-                            </ul>
-                        </div> <!-- footer link -->
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Product & Services</h6>
-                            <ul>
-                                <li><a href="#">Products</a></li>
+                            <h6 class="footer-title"></h6>
+                            <ul> -->
+                                <!-- <li><a href="#">Products</a></li>
                                 <li><a href="#">Business</a></li>
-                                <li><a href="#">Developer</a></li>
-                            </ul>
-                        </div> <!-- footer link -->
-                    </div>
+                                <li><a href="#">Developer</a></li> -->
+                            <!-- </ul>
+                        </div> footer link -->
+                    <!-- </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-link">
                             <h6 class="footer-title">Help & Suuport</h6>
@@ -773,31 +655,28 @@ Incubitees get funds from the state government
                                 <li><a href="#">FAQ</a></li>
                                 <li><a href="#">Terms & Conditions</a></li>
                             </ul>
-                        </div> <!-- footer link -->
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- footer widget -->
-        
+                        </div> footer link -->
+
+
         <div class="footer-copyright">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="copyright text-center text-lg-left mt-10">
-                            <p class="text">Crafted by <a style="color: #38f9d7" rel="nofollow" href="https://uideck.con">UIdeck</a> and UI Elements from <a style="color: #38f9d7" rel="nofollow" href="https://ayroui.com">Ayro UI</a></p>
+                            <p class="text">Designed by Apoorva Kumar (ECE Department)</p>
                         </div> <!--  copyright -->
                     </div>
-                    <div class="col-lg-2">
-                        <div class="footer-logo text-center mt-10">
-                            <a href="index.html"><img src="assets/images/logo-2.svg" alt="Logo"></a>
-                        </div> <!-- footer logo -->
+                    <!-- <div class="col-lg-2"> -->
+                        <!-- <div class="footer-logo text-center mt-10"> -->
+                            <!-- <a href="index.html"><img src="assets/images/logo-2.svg" alt="Logo"></a> -->
+                        <!-- </div> -->
                     </div>
                     <div class="col-lg-5">
                         <ul class="social text-center text-lg-right mt-10">
-                            <li><a href="https://facebook.com/uideckHQ"><i class="lni-facebook-filled"></i></a></li>
-                            <li><a href="https://twitter.com/uideckHQ"><i class="lni-twitter-original"></i></a></li>
-                            <li><a href="https://instagram.com/uideckHQ"><i class="lni-instagram-original"></i></a></li>
-                            <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
+                            <li><a href="https://www.facebook.com/icnitp/"><i class="lni-facebook-filled"></i></a></li>
+                            <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                            <!-- <li><a href="#"><i class="lni-instagram-original"></i></a></li> -->
+                            <li><a href="#"><i class="lni-google"></i></a></li>
                         </ul> <!-- social -->
                     </div>
                 </div> <!-- row -->
@@ -805,29 +684,7 @@ Incubitees get funds from the state government
         </div> <!-- footer copyright -->
     </footer>
 
-    <!--====== FOOTER FOUR PART ENDS ======-->
-    
-    <!--====== BACK TOP TOP PART START ======-->
-
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
-
-    <!--====== BACK TOP TOP PART ENDS ======-->  
-
-    <!--====== PART START ======-->
-
-
-
-    <!--====== PART ENDS ======-->
-
-
-
-
-
-
-
-
-
-
     <!--====== jquery js ======-->
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
